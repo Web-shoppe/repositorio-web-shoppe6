@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Exo:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+:root{
+    --c01:#6D09A4;
+    --c02:#000000;
+    --c03:#ffff;
+    --c04:#F0E3F8;
+
+    --f01:"Archivo", sans-serif;
+    --f02:"Barlow", sans-serif;
+    --f03:"Exo", sans-serif;
+    --f04:"Orbitron", sans-serif;
+    --f05: "roboto", sans-serif;
+}
+
+.h1-cat{
+    text-align: center;
+    font-family: var(--f02);
+    margin-top: 10px;
+}
+
+.hr-categoria{
+    background-color: black;
+    width: 1300px;
+    height: 1px;
+}
+
+.a1{
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+}
+
+.cont{
+    width: 300px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.dio{
+    color: var(--c01);
+    font-family: var(--f02);
+    font-size: 25px;
+    margin: 10px 0px 8px 0px;
+}
+
+.div-cat{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    margin-top: 20px;
+    height: 530px;
+}
+
+.dropdown button{
+    background-color: var(--c03);
+    color: black;
+}
+
+.dropdown button:hover{
+    background-color: var(--c01);
+}

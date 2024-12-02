@@ -1,0 +1,123 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Exo:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --c01:#6D09A4;
+    --c02:#000000;
+    --c03:#ffff;
+
+    --f01:"Archivo", sans-serif;
+    --f02:"Barlow", sans-serif;
+    --f03:"Exo", sans-serif;
+    --f04:"Orbitron", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+h3{
+    margin: 0px !important;
+}
+
+h1{
+    margin: 10px 0px 30px 0px!important;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.produtos{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 50%;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+.produto{
+   border: 1px solid black;
+    width: 500px;
+    display: flex !important;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.info-produto img{
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+}
+
+.info-produto{
+    display: flex;
+    align-items: center;
+}
+
+.titulo-card{
+    font-size: 30px;
+}
+
+.resumo-compra{
+    width: 400px;
+    border: 2px solid var(--c01);
+    border-radius: 8px;
+    height: 100%;
+    padding: 8px;
+}
+
+.resumo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.amostra-produto{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.detalhes{
+    display: flex;
+    align-items: end;
+    width: 200px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#quanti{
+    width: 50px;
+}
+
+.valor-quant span{   
+    display: flex;
+    align-items: center;
+    width: 130px;
+}
+
+.btn-danger {
+    background-color: var(--c01) !important; /* Cor roxa */
+    color: white !important; /* Cor da fonte branca */
+    border: 2px solid var(--c01) !important; /* Remove bordas */
+}   
+
+.btn-finalizar{
+    width: 100%;
+    background-color: var(--c01) !important; /* Cor roxa */
+    color: white !important; /* Cor da fonte branca */
+    border: 2px solid var(--c01) !important; /* Remove bordas */
+}
+
+.btn-finalizar a:hover{
+    text-decoration: none;
+}
+
+.btn-finalizar a{
+    color: white;
+}

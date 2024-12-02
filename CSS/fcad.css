@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --c01: #6D09A4;
+    --c02: #000000;
+    --c03: #FFFFFF;
+    --c04: #F0E3F8;
+    --f01: "Barlow", sans-serif;
+}
+
+body {
+    background-image: url(../IMAGENS/login/foto_fundo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: var(--f01);
+}
+
+.div-cont {
+    background-color: var(--c03);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.div3 h3 {
+    font-size: 24px;
+    color: var(--c02);
+    margin-bottom: 20px;
+}
+
+.input1 {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid var(--c01);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input1:focus {
+    outline: none;
+    border-color: var(--c01);
+    box-shadow: 0 0 5px rgba(109, 9, 164, 0.5);
+}
+
+.bonner {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--c01);
+    border: none;
+    color: var(--c03);
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.bonner:hover {
+    background-color: #5a078f;
+}
